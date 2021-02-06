@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+void show(std::array<int, 10> arr){
+    auto itr = arr.begin();
+    while(itr!=arr.end()){
+        std::cout << *itr << " ";
+        itr++;
+    }
+    cout<<"\n";
+}
+int main(){
+    array<int, 10>arr = {1,2,3,4};
+    show(arr);
+    cout<<arr.empty()<<endl;
+    cout<<arr.size()<<endl;
+    cout<<arr.front()endl;
+    arr.at(2) = 2;      show(arr);
+    //Problem is it is a fixed sized container so we use Vectors.
+    vector<int>v = {1,2,3,4,5};
+    //Similarly for Vectors.
+}
