@@ -1,4 +1,4 @@
-        #include<bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 void quick(vector<int>&arr, int s, int ind){
     if(s==ind){
