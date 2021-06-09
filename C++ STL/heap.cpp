@@ -19,7 +19,7 @@ int main(){
     std::cout << v.back() << std::endl;
     v.pop_back();
     pop_heap(v.begin(),v.end());
-        v.pop_back();
+    v.pop_back();
     std::cout << v.back() << std::endl;show(v);
 
 }
